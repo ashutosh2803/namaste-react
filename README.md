@@ -30,3 +30,6 @@ browsersList: [
 ]
 
 Check official documentation and github readme file
+
+JSX(transpilled before it reaches to JS) - Parcel - Babel
+JSX is not HTML in JavaScript, it's syntax is similar to XML
