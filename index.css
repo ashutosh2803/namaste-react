@@ -185,6 +185,7 @@
   justify-content: space-evenly;
   overflow-y: scroll;
   scrollbar-width: 0;
+  padding: 10px;
 }
 .category-container::-webkit-scrollbar {
   display: none;
@@ -198,7 +199,6 @@
   color: rgba(2, 6, 12, 0.92);
 }
 .category-card {
-  width: 800px;
   margin: 1%;
   border-radius: 0.5rem;
   /* box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45); */
@@ -208,4 +208,8 @@
 .category-card:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+.category-logo {
+  width: 200px;
+  height: 35vh;
 }
